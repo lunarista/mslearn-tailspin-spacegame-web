@@ -46,6 +46,7 @@ steps:
     projects: '**/*.csproj'
 
 #move the following two build steps to a template and call just the template with the required parameter values (debug and release)
+
 #- task: DotNetCoreCLI@2
 #  displayName: 'Build the project - $(buildConfiguration)'
 #  inputs:
